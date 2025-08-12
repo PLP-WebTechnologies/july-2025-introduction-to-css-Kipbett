@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+}
+
+.welcome{
+    color: darkblue;
+    text-align: center;
+    font-size: 2em;
+}
+
+.introduction{
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 10px;
+}
+
+.course-intro{
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+.course-goals{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#table-section{
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid goldenrod;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#table-section p{
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+}
+
+td{
+    border: 1px solid yellow;
+}
+
+th{
+    border: 1px solid yellow;
+}
